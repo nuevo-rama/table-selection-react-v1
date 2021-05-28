@@ -15,7 +15,7 @@ Este proyecto utiliza React y Redux
 
 Wireframe
 
-![wireframe](/public/images/design-images.jpg)
+![wireframe](/public/images/design-images/wireframe-v1.jpg)
 
 ---
 
