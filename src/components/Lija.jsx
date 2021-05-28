@@ -29,7 +29,7 @@ const mapStateToProps = state => ({ //mapStateToProps mapea lo que tengo en el e
 });
 
 const mapDispatchToProps = dispatch => ({ //mapDispatchToProps mapea las funciones y las convierte en propiedades
-    quitarTitular (modelo) {
+    quitarLija (modelo) {
         dispatch ({
             type: "QUITAR_LIJA",
             modelo,

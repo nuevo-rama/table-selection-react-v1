@@ -30,13 +30,13 @@ const mapStateToProps = state => ({ //mapStateToProps mapea lo que tengo en el e
 });
 
 const mapDispatchToProps = dispatch => ({ //mapDispatchToProps mapea las funciones y las convierte en propiedades
-    agregarTitular (modelo) {
+    agregarLija (modelo) {
         dispatch ({                         // objeto action
                 type: "AGREGAR_LIJA",    //tipo de action
                 modelo                    //objeto
             })
         },
-    agregarSuplente (modelo) {
+    agregarTabla (modelo) {
         dispatch ({                         // objeto action
                 type: "AGREGAR_TABLA",    //tipo de action
                 modelo                    //objeto
