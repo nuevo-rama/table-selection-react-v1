@@ -1,3 +1,44 @@
-body {
-    background-color: aqua;
+/*font-family: 'Athiti', sans-serif;
+font-family: 'Baloo Paaji 2', cursive;
+font-family: 'Big Shoulders Stencil Display', cursive;*/
+
+
+.header {
+    background-color: white;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    height: 80px;
+}
+
+.contenedor-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-modelos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: red solid 1px;
+    width: 20%;
+}
+
+.modelos {
+    display: block;
+    border: red solid 1px;
+}
+
+.centro {
+    display: block;
+    width: 50%;
+    height: 100 hw;
+    border: red solid 1px;
+
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 80px;
 }
