@@ -8,9 +8,14 @@ import "./styles/styles.css";
 const App = () => ( //COMPONENTE PRINCIPAL
   <Provider store = {store}>
     <main>
+      <header className= "header"></header>
+      <div className= "contenedor-total">
       <h1>Tabla de Selección</h1>
       <Modelos/>
+      <section className= "centro"></section>
       <ItemsSeleccionados/>
+      </div>
+      <footer className="footer"></footer>
       
 
 
