@@ -13,13 +13,23 @@ Este proyecto utiliza React y Redux
 
 ---
 
-Wireframe
+## Wireframe
 
 ![wireframe](/public/images/design-images/wireframe-v1.jpg)
 
 ---
 
-Vista Principal
+## Paleta de colores
+   
+   Basados en el siguiente [Link] (https://coolors.co/7a6c5d-2a3d45-ddc9b4-bcac9b-c17c74)
+
+        1. ![#7A6C5D](https://via.placeholder.com/15/DCDCDD/000000?text=+) `#7A6C5D`
+        2. ![#2A3D45](https://via.placeholder.com/15/C5C3C6/000000?text=+) `#2A3D45`
+        3. ![#DDC9B4](https://via.placeholder.com/15/46494C/000000?text=+) `#DDC9B4`
+        4. ![#BCAC9B](https://via.placeholder.com/15/4C5C68/000000?text=+) `#BCAC9B`
+        5. ![#C17C74](https://via.placeholder.com/15/1985A1/000000?text=+) `#C17C74`
+
+## Vista Principal
 
 
 ---
