@@ -21,7 +21,7 @@ Este proyecto utiliza React y Redux
 
 ## Paleta de colores
    
-   Basados en el siguiente [Link] (https://coolors.co/7a6c5d-2a3d45-ddc9b4-bcac9b-c17c74)
+   Basados en el siguiente [Link](https://coolors.co/7a6c5d-2a3d45-ddc9b4-bcac9b-c17c74)
 
    1. ![#7A6C5D](https://via.placeholder.com/15/7A6C5D/000000?text=+) `#7A6C5D`
    2. ![#2A3D45](https://via.placeholder.com/15/2A3D45/000000?text=+) `#2A3D45`
