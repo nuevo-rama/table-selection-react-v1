@@ -1,13 +1,14 @@
 # Proyecto con React - Redux
-## Skate Design
+## Classroom Selector
+## Selector de Aula
 
 ---------------------
 
 Este proyecto utiliza React y Redux
 
-- La idea del proyecto es que el usuario pueda "diseñar" su propia tabla de Skate.
+- La idea del proyecto es que el usuario "profesor o encargado del aula" pueda organizar la cantidad y los participantes de cada aula.
 
-- La app provee distintas opciones que el usuario puede elegir e ir visualizando en tiempo real el resultado de su diseño.
+- La app provee distintas opciones que el usuario puede elegir e ir visualizando en tiempo real el resultado de su elección.
 
 - También el usuario tiene la posibilidad de cambiar su elección y volver a elegir otra.
 
@@ -15,7 +16,7 @@ Este proyecto utiliza React y Redux
 
 ## Wireframe
 
-![wireframe](/public/images/design-images/wireframe-v1.jpg)
+![wireframe](/public/images/design-images/1.jpg)
 
 ---
 
@@ -33,6 +34,12 @@ Este proyecto utiliza React y Redux
 
 
 ---
+
+## Para ejecutar el proyecto
+
+- npm i
+- npm start
+
 
 
 
