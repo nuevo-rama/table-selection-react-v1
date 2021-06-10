@@ -1,11 +1,11 @@
 import React from "react";
-import Lija from "./Lija";
-import Tabla from "./Tabla";
+import ClaseDia1 from "./ClaseDia1";
+import ClaseDia2 from "./ClaseDia2";
 
 const ItemsSeleccionados = () => (
     <section>
-        <Lija />
-        <Tabla />
+        <ClaseDia1 />
+        <ClaseDia2 />
     </section>
 )
 

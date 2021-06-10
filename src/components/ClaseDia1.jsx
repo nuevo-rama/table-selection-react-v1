@@ -1,17 +1,17 @@
 import React from "react";
 import { connect } from "react-redux"; //me conecto al store para poder leer la data
 
-const Lijas = ({lijas, quitarLija}) => (
+const ClaseDia1 = ({dia1, quitarDia1}) => (
     <section>
-        <h2>Lijas</h2>
+        <h2>Clase Día 1</h2>
         <div className= "design">
             {
-                lijas.map(m => (
+                dia1.map(m => (
                     <article className= "lija" key= {m.id}>
                 <img src={m.foto} alt={m.nombre}/>
                 <h3>{m.nombre}</h3>
                 <div>
-                    <button onClick = {() => quitarLija (m)}>X</button>
+                    <button onClick = {() => quitarDia1 (m)}>X</button>
                     
                 </div>
                     <p>{m.nombre}</p>
@@ -25,16 +25,16 @@ const Lijas = ({lijas, quitarLija}) => (
 )
 
 const mapStateToProps = state => ({ //mapStateToProps mapea lo que tengo en el estado y lo convierte en propiedades 
-    lijas : state.lijas
+    dia1 : state.dia1
 });
 
 const mapDispatchToProps = dispatch => ({ //mapDispatchToProps mapea las funciones y las convierte en propiedades
-    quitarLija (modelo) {
+    quitarDia1 (alumno) {
         dispatch ({
-            type: "QUITAR_LIJA",
-            modelo,
+            type: "QUITAR_DIA1",
+            alumno,
         })
     }
 }); 
 
-export default connect(mapStateToProps, mapDispatchToProps) (Lijas);
+export default connect(mapStateToProps, mapDispatchToProps) (ClaseDia1);
