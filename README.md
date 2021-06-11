@@ -11,6 +11,8 @@
 
 - La app provee distintas opciones que el usuario puede elegir e ir visualizando en tiempo real el resultado de su elección.
 
+- El usuario podrá seleccionar si envía al alumno al *Aula 1* o al *Aula 2*.
+
 - También el usuario tiene la posibilidad de cambiar su elección y volver a elegir otra.
 
 ---
@@ -30,10 +32,7 @@
 - npm i
 - npm start
 
-
-
-
-
+---
 
 In the project directory, you can run:
 
