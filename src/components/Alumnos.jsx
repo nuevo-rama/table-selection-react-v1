@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
       padding: theme.spacing(2, 2, 0),
     },
     paper: {
+      width: 400,
       paddingBottom: 50,
     },
     list: {
@@ -73,8 +74,8 @@ const useStyles = makeStyles((theme) => ({
                   </ListItemAvatar>
                   <ListItemText primary={m.nombre} secondary={m.calificaciones}/>
                   <ButtonGroup variant="contained" color="primary" aria-label="contained primary button group" size="small">
-                    <Button onClick = { () => agregarDia1 (m)}>Classroom 1</Button>
-                    <Button onClick = { () => agregarDia2 (m)}>Classroom 2</Button>
+                    <Button onClick = { () => agregarDia1 (m)}>Aula 1</Button>
+                    <Button onClick = { () => agregarDia2 (m)}>Aula 2</Button>
                   </ButtonGroup>                    
                 </ListItem>
               </React.Fragment>
