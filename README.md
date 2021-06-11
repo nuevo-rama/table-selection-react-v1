@@ -4,7 +4,8 @@
 
 ---------------------
 
-Este proyecto utiliza React y Redux
+#### Este proyecto utiliza React y Redux
+#### Para los estilos el proyecto utiliza Material-UI
 
 - La idea del proyecto es que el usuario "profesor o encargado del aula" pueda organizar la cantidad y los participantes de cada aula.
 
