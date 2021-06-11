@@ -4,17 +4,20 @@ const initialState = {
     alumnos: [{
         id: 1,
         nombre: "Juan",
-        foto: "./images/product-images/skate-1.png"
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 7"
     },
     {
         id: 2,
         nombre: "Carlos",
-        foto: "./images/product-images/skate-1.png"
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 6"
     },
     {
         id: 3,
         nombre: "María",
-        foto: "./images/product-images/skate-1.png"
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 5"
     }],
     dia1: [],
     dia2: []
