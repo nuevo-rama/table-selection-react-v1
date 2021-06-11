@@ -16,6 +16,17 @@
 - También el usuario tiene la posibilidad de cambiar su elección y volver a elegir otra.
 
 ---
+## Sobre el diseño
+
+- Responsive
+- Dividido en 3 secciones principales:
+- 1. Alumnos
+- 2. Clase 1
+- 3. Clase 2
+- Header
+- Footer
+
+---
 
 ## Wireframe
 
