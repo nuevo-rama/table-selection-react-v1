@@ -25,6 +25,9 @@
 
 ## Vista Principal
 
+
+- En proceso
+
 ---
 
 ## Para ejecutar el proyecto
