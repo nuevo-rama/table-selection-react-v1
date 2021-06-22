@@ -18,6 +18,48 @@ const initialState = {
         nombre: "María",
         foto: "./images/product-images/1.png",
         calificaciones: "Última Calificación: 5"
+    },
+    {
+        id: 4,
+        nombre: "María",
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 5"
+    },
+    {
+        id: 5,
+        nombre: "María",
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 5"
+    },
+    {
+        id: 6,
+        nombre: "María",
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 5"
+    },
+    {
+        id: 7,
+        nombre: "María",
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 5"
+    },
+    {
+        id: 8,
+        nombre: "María",
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 5"
+    },
+    {
+        id: 9,
+        nombre: "María",
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 5"
+    },
+    {
+        id: 10,
+        nombre: "María",
+        foto: "./images/product-images/1.png",
+        calificaciones: "Última Calificación: 5"
     }],
     dia1: [],
     dia2: []
