@@ -15,13 +15,22 @@ const App = () => ( //COMPONENTE PRINCIPAL
   <Provider store = {store}>
     <React.Fragment>
       <CssBaseline />
-      <Header/>
+      <main className="mainBox">
+        <section>
+          <Header/>
+        </section>
+        
+        <section className="alumnos">
+          <Alumnos/>
+        </section>
+
+        <section className="alumnos">
+          <ItemsSeleccionados/>
+        </section>
+
+      </main>
       
-      <Alumnos/>
       
-      <ItemsSeleccionados/>
-      
-      <Footer/>
     </React.Fragment>
     
   </Provider>
