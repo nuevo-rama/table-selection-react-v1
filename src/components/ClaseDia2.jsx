@@ -23,35 +23,34 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { connect } from "react-redux"; //me conecto al store para poder leer la data
 
 const useStyles = makeStyles((theme) => ({
-    text: {
-      padding: theme.spacing(2, 2, 0),
-    },
-    paper: {
-      width: 400,
-      paddingBottom: 50,
-    },
-    list: {
-      marginBottom: theme.spacing(2),
-    },
-    subheader: {
-      backgroundColor: theme.palette.background.paper,
-    },
-    appBar: {
-      top: 'auto',
-      bottom: 0,
-    },
-    grow: {
-      flexGrow: 1,
-    },
-    fabButton: {
-      position: 'absolute',
-      zIndex: 1,
-      top: -30,
-      left: 0,
-      right: 0,
-      margin: '0 auto',
-    },
-  }));
+  text: {
+    padding: theme.spacing(2, 2, 0),
+  },
+  paper: {
+    paddingBottom: 50,
+  },
+  list: {
+    marginBottom: theme.spacing(2),
+  },
+  subheader: {
+    backgroundColor: theme.palette.background.paper,
+  },
+  appBar: {
+    top: 'auto',
+    bottom: 0,
+  },
+  grow: {
+    flexGrow: 1,
+  },
+  fabButton: {
+    position: 'absolute',
+    zIndex: 1,
+    top: -30,
+    left: 0,
+    right: 0,
+    margin: '0 auto',
+  },
+}));
 
   function ClaseDia2 ({dia2, quitarDia2}) {
     const classes = useStyles();
