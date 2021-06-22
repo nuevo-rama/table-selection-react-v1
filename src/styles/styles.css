@@ -1,2 +1,10 @@
+.mainBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
-
+.alumnos {
+    width: 45%;
+    height: 100%;
+}
