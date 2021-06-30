@@ -20,9 +20,9 @@
 
 - Responsive
 - Dividido en 3 secciones principales:
-- 1. Alumnos
-- 2. Clase 1
-- 3. Clase 2
+a. Alumnos
+b. Clase 1
+c. Clase 2
 - Header
 - Footer
 
